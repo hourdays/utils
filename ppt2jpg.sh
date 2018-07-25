@@ -25,7 +25,7 @@ for file in *.pptx; do
     
     ## convert to JPEG
     ## PowerPoint slides have a 1280 x 720 pixel resolution
-    convert -density 400 "$filename".pdf -resize 1280x720 "$filename"/slide-%d.jpg -scene 1
+    convert -scene 1 -density 400 "$filename".pdf -resize 1280x720 "$filename"/slide-%d.jpg
 
     ## delete PDF
     rm "$filename".pdf
