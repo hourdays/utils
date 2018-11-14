@@ -9,7 +9,7 @@ Tested on macOS High Sierra with the following prerequisites:
 * install imagemagick `brew install imagemagick`
 
 ## mlvs.sh
-Is a shell script to switch MarkLogic version with timestamping so as to manage several identitcal MarkLogic versions.
+Is a shell script to switch MarkLogic version with timestamping so as to switch between several identical MarkLogic versions.
 It does not handle converters for now.
 Not for production, this is simply used for demo purposes.
 Tested on macOS High Sierra. Relies on awk, which is a package that may need to be installed on other unix ditributions.
