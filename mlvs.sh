@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# TODO: handle converters
+# TODO: ability to disable all versions to allow the installation of a new version
+# TODO: ability to describe or even grab the application server names hosted by each version
+
 # Start
 echo "Please enter your name"
 read name
@@ -61,5 +65,6 @@ done
 echo "Version $new_version successfully activated."
 
 # Ask if it should be started
+#~/Library/StartupItems/MarkLogic/MarkLogic start
 
 # End
